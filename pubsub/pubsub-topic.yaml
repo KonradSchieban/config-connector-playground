@@ -4,5 +4,5 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: kschieban-asm-lab
   labels:
-    env: dev
+    env: prod
   name: argo-topic
