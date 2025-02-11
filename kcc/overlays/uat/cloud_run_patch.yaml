@@ -15,13 +15,13 @@
 apiVersion: run.cnrm.cloud.google.com/v1beta1
 kind: RunService
 metadata:
-  name: runservice-sample-basic-uat
+  name: runservice-sample-basic
 spec:
   ingress: "INGRESS_TRAFFIC_ALL"
   launchStage: "GA"
   location: "europe-west3"
   projectRef:
-    external: projects/kschieban-asm-lab
+    external: projects/kschieban-gcve-test
   template:
     containers:
       - env:
