@@ -5,4 +5,4 @@ patches:
 - path: cloud_run_patch.yaml
 
 resources:
-- ../../resources/cloud_run
+- ../../resources/cloud_run/run_service_basic.yaml
