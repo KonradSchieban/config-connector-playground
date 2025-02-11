@@ -1,0 +1,11 @@
+apiVersion: run.cnrm.cloud.google.com/v1beta1
+kind: RunService
+spec:
+  projectRef:
+    external: projects/kschieban-asm-lab
+  template:
+    containers:
+      - env:
+          - name: "env"
+            value: "dev"
+        image: "gcr.io/cloudrun/hello"
