@@ -15,7 +15,7 @@
 apiVersion: run.cnrm.cloud.google.com/v1beta1
 kind: RunService
 metadata:
-  name: runservice-dev
+  name: runservice-sample-basic
 spec:
   ingress: "INGRESS_TRAFFIC_ALL"
   launchStage: "GA"
