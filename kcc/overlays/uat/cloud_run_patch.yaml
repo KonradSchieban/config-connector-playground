@@ -21,7 +21,7 @@ spec:
   launchStage: "GA"
   location: "europe-west3"
   projectRef:
-    external: projects/kschieban-gcve-test
+    external: projects/kschieban-asm-lab
   template:
     containers:
       - env:
