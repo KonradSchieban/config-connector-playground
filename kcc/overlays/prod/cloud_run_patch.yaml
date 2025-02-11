@@ -15,7 +15,7 @@
 apiVersion: run.cnrm.cloud.google.com/v1beta1
 kind: RunService
 metadata:
-  name: runservice-sample-basic-uat
+  name: runservice-sample-basic-prod
 spec:
   ingress: "INGRESS_TRAFFIC_ALL"
   launchStage: "GA"
@@ -26,7 +26,7 @@ spec:
     containers:
       - env:
           - name: "env"
-            value: "uat"
+            value: "prod"
         image: "gcr.io/cloudrun/hello"
     scaling:
       maxInstanceCount: 2
