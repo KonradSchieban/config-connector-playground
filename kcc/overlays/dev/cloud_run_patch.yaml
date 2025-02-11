@@ -17,9 +17,6 @@ kind: RunService
 metadata:
   name: runservice-sample-basic-dev
 spec:
-  ingress: "INGRESS_TRAFFIC_ALL"
-  launchStage: "GA"
-  location: "europe-west3"
   projectRef:
     external: projects/kschieban-asm-lab
   template:
@@ -30,6 +27,3 @@ spec:
         image: "gcr.io/cloudrun/hello"
     scaling:
       maxInstanceCount: 2
-  traffic:
-    - percent: 100
-      type: "TRAFFIC_TARGET_ALLOCATION_TYPE_LATEST"
