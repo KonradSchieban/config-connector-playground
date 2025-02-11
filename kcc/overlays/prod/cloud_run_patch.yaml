@@ -26,4 +26,4 @@ spec:
             value: "prod"
         image: "gcr.io/cloudrun/hello"
     scaling:
-      maxInstanceCount: 2
+      maxInstanceCount: 4
