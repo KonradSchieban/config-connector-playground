@@ -25,8 +25,8 @@ spec:
   template:
     containers:
       - env:
-          - name: "FOO"
-            value: "bar]"
+          - name: "env"
+            value: "dev"
         image: "gcr.io/cloudrun/hello"
     scaling:
       maxInstanceCount: 2
