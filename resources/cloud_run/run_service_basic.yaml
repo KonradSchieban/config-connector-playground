@@ -16,8 +16,6 @@ apiVersion: run.cnrm.cloud.google.com/v1beta1
 kind: RunService
 metadata:
   name: runservice-sample-basic
-annotations:
-  run.googleapis.com/invoker-iam-disabled: false
 spec:
   ingress: "INGRESS_TRAFFIC_ALL"
   launchStage: "GA"
