@@ -3,3 +3,4 @@ kind: Kustomization
 
 resources:
 - run_service_basic.yaml
+- run_service_basic_uat.yaml
