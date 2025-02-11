@@ -3,6 +3,8 @@ kind: Kustomization
 
 patches:
 - path: cloud_run_patch.yaml
+- path: cloud_run_patch_uat.yaml
+- path: cloud_run_patch_prod.yaml
 
 resources:
 - ../../resources/cloud_run
