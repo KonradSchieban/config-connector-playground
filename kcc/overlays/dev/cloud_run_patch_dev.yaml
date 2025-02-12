@@ -23,7 +23,7 @@ spec:
     containers:
       - env:
           - name: "env"
-            value: "dev"
+            value: "dev1234"
         image: "gcr.io/cloudrun/hello"
     scaling:
-      maxInstanceCount: 2
+      maxInstanceCount: 6
